@@ -1,7 +1,7 @@
 from scapy.all import *
 import goose
 
-a = rdpcap("/home/dehus/Downloads/wireshark2.pcap")
+a = rdpcap("wireshark2.pcap")
 for i in a:
     try:
         if i.type == 0x88b8:
