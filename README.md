@@ -11,4 +11,5 @@ published in the [IEEE Workshop on Smart Grid Communications](http://ieeexplore.
 [[full text]](http://markdehus.com/SGCOMM.pdf).
 
 The code comes with absolutely no warranty, and we are not liable if
-it does something completely unexpected.
+it does something completely unexpected.  If you use this code in an
+academic work, please cite our paper.
