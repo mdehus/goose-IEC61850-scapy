@@ -3,7 +3,7 @@ goose-IEC61850-scapy
 The Generic Object Oriented Substation Events (GOOSE) protocol is defined in 
 IEC 61850 for the purpose of distributing event data across entire 
 substation networks.  The code in this project can be used to provide
-assistance in decoding GOOSE in a programmatic way.
+assistance in decoding / encoding GOOSE packets in a programmatic way.
 
 Most of the code was thrown together quickly and built so that we could use
 it to specifically demonstrate an attack against GOOSE in our paper, 
@@ -13,3 +13,5 @@ published in the [IEEE Workshop on Smart Grid Communications](http://ieeexplore.
 The code comes with absolutely no warranty, and we are not liable if
 it does something completely unexpected.  If you use this code in an
 academic work, please cite our paper.
+
+Please note that this code depends on the [scapy library](http://www.secdev.org/projects/scapy/).
